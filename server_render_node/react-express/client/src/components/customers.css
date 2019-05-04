@@ -1,0 +1,21 @@
+div {
+  background-color: #3f3f3f;
+}
+
+.title {
+  text-align: center;
+  width: 100%;
+  border: 1px solid white;
+  font-size: 30px;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.desc {
+  text-align: center;
+  width: 100%;
+  border: 1px solid white;
+  font-size: 15px;
+  color: aliceblue;
+  font-weight: bold;
+}

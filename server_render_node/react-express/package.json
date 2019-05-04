@@ -1,0 +1,24 @@
+{
+  "name": "react-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.3.1",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "jquery": "^3.4.0",
+    "multer": "^1.4.1",
+    "mysql": "^2.17.1",
+    "pug": "^2.0.3",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-router-dom": "^5.0.0"
+  }
+}

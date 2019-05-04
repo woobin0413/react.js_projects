@@ -1,0 +1,13 @@
+.jumbotron {
+  text-align: center;
+}
+
+form {
+  float: right;
+}
+
+.bottom-nav {
+  text-align: center;
+  width: 100%;
+  margin: 2px;
+}
