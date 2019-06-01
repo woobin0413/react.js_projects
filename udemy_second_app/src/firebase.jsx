@@ -16,6 +16,7 @@ firebase.initializeApp(config);
 
 const firebaseDB = firebase.database();
 const firebaseMatches = firebaseDB.ref("matches");
+const firebasePromotions = firebaseDB.ref("promotions");
 // firebaseDB
 //   .ref("matches")
 //   .once("value")
@@ -23,4 +24,4 @@ const firebaseMatches = firebaseDB.ref("matches");
 //     console.log(snapshot.val());
 //   });
 
-export { firebase, firebaseMatches };
+export { firebase, firebaseMatches, firebasePromotions };
