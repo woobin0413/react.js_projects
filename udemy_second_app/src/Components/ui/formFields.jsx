@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 const FormField = ({ formdata, id, change }) => {
   const showError = () => {
@@ -20,7 +20,7 @@ const FormField = ({ formdata, id, change }) => {
         formTemplate = (
           <div>
             {formdata.showlabel ? (
-              <div className="label_inputs"> {formdata.config.label}</div>
+              <div className="label_inputs">{formdata.config.label}</div>
             ) : null}
             <input
               {...formdata.config}
@@ -35,9 +35,8 @@ const FormField = ({ formdata, id, change }) => {
         formTemplate = (
           <div>
             {formdata.showlabel ? (
-              <div className="label_inputs"> {formdata.config.label}</div>
+              <div className="label_inputs">{formdata.config.label}</div>
             ) : null}
-
             <select
               value={formdata.value}
               onChange={event => change({ event, id })}
@@ -52,6 +51,8 @@ const FormField = ({ formdata, id, change }) => {
             {showError()}
           </div>
         );
+        break;
+
       default:
         formTemplate = null;
     }
